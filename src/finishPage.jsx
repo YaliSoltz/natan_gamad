@@ -1,10 +1,10 @@
 import React from "react";
-import "./FinishPage.scss";
+import "./finishPage.scss";
 
 const FinishPage = () => {
   return (
-    <div >
-      <div className="bg" />
+    <div className="finish-page-container">
+      <div className="finish-page-image" />
     </div>
   );
 };

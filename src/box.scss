@@ -411,6 +411,10 @@ div#sea {
 
 .step-4 .giftCardContainer {
   opacity: 1;
+
+  & .cardFront{
+    cursor: pointer;
+  }
 }
 
 @keyframes neon {
