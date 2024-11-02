@@ -1,19 +1,18 @@
-import React, { createContext } from "react";
+import React, { createContext, useState } from "react";
 
 export const TextContext = createContext();
 
 const TextProvider = ({ children }) => {
   const videoUrl = "https://www.youtube.com/embed/yhO3JRf2_o4?autoplay=1";
-  const leftCornerText = ["עדידה", "מתחילה", "לימודים"];
+  const leftCornerText = ["טקסט", "פינה", "שמאלית"];
   const cardHeader = "כדאי לך ללחוץ על הכרטיס..";
-  const cardTitle = "ברכה לתחילת הלימודים";
-  const cardSubTitle = "לעדידה האהובה שלי";
+  const cardTitle = "טקסט כותרת לכרטיס ברכה";
+  const cardSubTitle = "טקסט תחילת ברכה";
   const cardContent = `
-           שותפה שלי, מאחל לך המון הצלחה בתחילת הלימודים.
-           מאמין בך מכל הלב ובטוח שהשמיים הם לא הגבול עבורך, את מדהימה ומסוגלת להכל ואני מלפנייך, מאחורייך ומצדדיך.
-           לכי תטרפי את העולם, גאה בך המון
+         טקסט ברכה
             `;
-  const blessingFrom = "אילון";
+  const blessingFrom = "טקסט סיום ברכה";
+  const [isSelectedGift, setSelectedGift] = useState(false);
 
   return (
     <TextContext.Provider
@@ -25,6 +24,8 @@ const TextProvider = ({ children }) => {
         cardSubTitle,
         cardContent,
         blessingFrom,
+        isSelectedGift,
+        setSelectedGift,
       }}
     >
       {children}

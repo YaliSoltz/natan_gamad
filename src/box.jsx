@@ -5,7 +5,7 @@ import { useEffect } from "react";
 import { TextContext } from "../textContext";
 
 const Box = () => {
-  const { leftCornerText, videoUrl } = useContext(TextContext);
+  const { leftCornerText, videoUrl, isSelectedGift } = useContext(TextContext);
   let step = 1;
   let stepMinutes = [2000, 2000, 1000, 1000];
   const merrywrapRef = useRef(null);
@@ -362,7 +362,7 @@ const Box = () => {
         </div>
       </div>
 
-      <div id="video" />
+      {!isSelectedGift &&<div id="video" />}
     </div>
   );
 };
