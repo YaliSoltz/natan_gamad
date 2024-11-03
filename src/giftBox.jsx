@@ -1,8 +1,6 @@
-import React, { useContext, useRef } from "react";
 import "./box.scss";
-import FinishPage from "./FinishPage";
 
-import { useEffect } from "react";
+import React, { useContext, useRef, useEffect } from "react";
 import { TextContext } from "../textContext";
 import GiftCard from "./GiftCard";
 
