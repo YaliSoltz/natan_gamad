@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import { TextContext } from "../textContext";
-import FinishPage from "./FinishPage";
+import FinishPage from "./FinishPage.jsx";
 import GiftBox from "./giftBox";
 
 const App = () => {
