@@ -1,5 +1,5 @@
 import React from "react";
-import "./finishPage.scss";
+import "../styles/finishPage.scss";
 
 const FinishPage = () => {
   return (

@@ -1,7 +1,7 @@
-import "./box.scss";
+import "../styles/box.scss";
 
 import React, { useContext, useRef, useEffect } from "react";
-import { TextContext } from "../textContext";
+import { TextContext } from "../context/textContext";
 import GiftCard from "./GiftCard";
 
 const GiftBox = () => {

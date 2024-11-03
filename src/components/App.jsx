@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
-import { TextContext } from "../textContext";
-import FinishPage from "./FinishPage.jsx";
-import GiftBox from "./giftBox";
+import { TextContext } from "../context/textContext";
+import FinishPage from "./FinishPage";
+import GiftBox from "./GiftBox";
 
 const App = () => {
   const { isSelectedGift } = useContext(TextContext);

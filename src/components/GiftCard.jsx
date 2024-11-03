@@ -1,8 +1,8 @@
 import "react-multi-carousel/lib/styles.css";
-import "./giftCard.scss";
+import "../styles/giftCard.scss";
 
 import { useContext, useState } from "react";
-import { TextContext } from "../textContext";
+import { TextContext } from "../context/textContext";
 import Swal from "sweetalert2";
 import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
@@ -16,11 +16,11 @@ import Modal from "@mui/material/Modal";
 import Fade from "@mui/material/Fade";
 import Typography from "@mui/material/Typography";
 
-import giftImg1 from "./img/giftImg1.png";
-import giftImg2 from "./img/giftImg2.png";
-import giftImg3 from "./img/giftImg3.png";
-import giftImg4 from "./img/giftImg4.png";
-import giftImg5 from "./img/giftImg5.png";
+import giftImg1 from "../img/giftImg1.png";
+import giftImg2 from "../img/giftImg2.png";
+import giftImg3 from "../img/giftImg3.png";
+import giftImg4 from "../img/giftImg4.png";
+import giftImg5 from "../img/giftImg5.png";
 
 function GiftCard() {
   const {
