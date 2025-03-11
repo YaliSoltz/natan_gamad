@@ -19,6 +19,7 @@ import Typography from "@mui/material/Typography";
 import giftImg1 from "../img/giftImg1.png";
 import giftImg2 from "../img/giftImg2.png";
 import giftImg3 from "../img/giftImg3.png";
+import giftImg4 from "../img/giftImg4.png";
 
 function GiftCard() {
   const {
@@ -66,6 +67,11 @@ function GiftCard() {
       title: "סוס",
       text: "מתנה 3",
       url: giftImg3,
+    },
+    {
+      title: "25% משרה",
+      text: "מתנה 4",
+      url: giftImg4,
     },
   ];
 

@@ -11,7 +11,7 @@ const TextProvider = ({ children }) => {
   const cardContent = `
          "אהבה היא הדרך
          אושר הוא הסימן
-         האור הוא המטרהץ"
+         האור הוא המטרה"
          ד"ר נאדר בוטו 
             `;
   const blessingFrom = "באהבה, הענק שלך";
