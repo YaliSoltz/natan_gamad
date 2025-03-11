@@ -54,34 +54,20 @@ function GiftCard() {
   };
 
   const choices = [
-    // {
-    //   text: "",
-    //   url: ""
-    // },
     {
-      title: "שרשרת לבחירתך",
+      title: "נשיקה",
       text: "מתנה 1",
       url: giftImg1,
     },
     {
       title: "רחפן",
       text: "מתנה 2",
-      url: giftImg2,
+      url: חיבוק,
     },
     {
-      title: "תיק יוקרה",
+      title: "סוס",
       text: "מתנה 3",
       url: giftImg3,
-    },
-    {
-      title: "טיסה לפריז",
-      text: "מתנה 4",
-      url: giftImg4,
-    },
-    {
-      title: "גור",
-      text: "מתנה 5",
-      url: giftImg5,
     },
   ];
 
