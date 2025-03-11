@@ -6,7 +6,7 @@ const TextProvider = ({ children }) => {
   const videoUrl = "https://www.youtube.com/embed/9OvpF8qsrkE?autoplay=1";
   const leftCornerText = ["נתן", "הגמד", "שלי"];
   const cardHeader = "כדאי לך ללחוץ על הכרטיס..";
-  const cardTitle = "שלום גמד שלי";
+  const cardTitle = "שלום לך נתן";
   const cardSubTitle = "ניחשת כבר מי אני?";
   const cardContent = `
          "אהבה היא הדרך
